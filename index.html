@@ -210,10 +210,10 @@
               <img src="img/hotel4.jpg" alt="hotel" />
             </li>
           </ul>
-          <ul class="main__dots">
+          <!-- <ul class="main__dots">
             <li class="main__dot active"></li>
             <li class="main__dot"></li>
-          </ul>
+          </ul> -->
         </div>
         <p class="main__text">
           Enjoy The majestic harmony of the Red Sea and nature when you stay at
@@ -294,11 +294,15 @@
                       >Two people in a double room</span
                     >
                     <span class="booking__dots"></span>
-                    <p class="booking__total">
-                      Total prince <span>1386€</span>. Price per person
+                    <p class="booking__total d-none d-md-block">
+                      Total price <span>1386€</span>. Price per person
+                    </p>
+                    <p class="booking__total d-md-none">
+                      Total price <span>1386€</span>
                     </p>
                   </div>
-                  <span class="booking__value">693€</span>
+                  <span class="booking__value d-none d-md-block">693€</span>
+                  <span class="booking__value d-md-none"><span>Price per person </span>693€</span>
                 </div>
                 <a
                   uk-toggle="target: #modal-2"
@@ -316,11 +320,15 @@
                       >Three people in a room for three</span
                     >
                     <span class="booking__dots"></span>
-                    <p class="booking__total">
-                      Total prince <span>1985€</span>. Price per person
+                    <p class="booking__total d-none d-md-block">
+                      Total price <span>1985€</span>. Price per person
+                    </p>
+                    <p class="booking__total d-md-none">
+                      Total price <span>1985€</span>
                     </p>
                   </div>
-                  <span class="booking__value">661€</span>
+                  <span class="booking__value d-none d-md-block">661€</span>
+                  <span class="booking__value d-md-none"><span>Price per person </span>661€</span>
                 </div>
                 <a
                   uk-toggle="target: #modal-3"
@@ -367,11 +375,15 @@
                       >Two people in a double room</span
                     >
                     <span class="booking__dots"></span>
-                    <p class="booking__total">
-                      Total prince <span>845€</span>. Price per person
+                    <p class="booking__total d-none d-md-block">
+                      Total price <span>845€</span>. Price per person
+                    </p>
+                    <p class="booking__total d-md-none">
+                      Total price <span>845€</span>
                     </p>
                   </div>
-                  <span class="booking__value">423€</span>
+                  <span class="booking__value d-none d-md-block">423€</span>
+                  <span class="booking__value d-md-none"><span>Price per person </span>423€</span>
                 </div>
                 <a
                   uk-toggle="target: #modal-5"
@@ -390,11 +402,15 @@
                       >Three people in a room for three</span
                     >
                     <span class="booking__dots"></span>
-                    <p class="booking__total">
-                      Total prince <span>1175€</span>. Price per person
+                    <p class="booking__total d-none d-md-block">
+                      Total price <span>1175€</span>. Price per person
+                    </p>
+                    <p class="booking__total d-md-none">
+                      Total price <span>1175€</span>
                     </p>
                   </div>
-                  <span class="booking__value">392€</span>
+                  <span class="booking__value d-none d-md-block">392€</span>
+                  <span class="booking__value d-md-none"><span>Price per person </span>392€</span>
                 </div>
                 <a
                   uk-toggle="target: #modal-6"
@@ -413,7 +429,7 @@
               >see all tickets</a
             >
             <div class="row">
-              <div class="col-12 col-md-8 offset-md-2 booking__form">
+              <!-- <div class="col-12 col-md-8 offset-md-2 booking__form">
                 <img
                   src="img/plane.svg"
                   alt="plane"
@@ -430,7 +446,7 @@
                   placeholder="Your airport"
                 />
                 <a href="#" class="button booking__form-btn">check purchase</a>
-              </div>
+              </div> -->
               <div class="col-12 col-md-8 offset-md-2">
                 <h2 class="booking__bottom-title">Need help? Talk to us!</h2>
                 <a
@@ -477,6 +493,10 @@
         </div>
       </div>
     </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script>
     <script src="js/bundle.js"></script>
